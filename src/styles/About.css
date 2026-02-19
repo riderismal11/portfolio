@@ -1,0 +1,147 @@
+.about {
+    padding: 6rem 2rem;
+    background-color: var(--bg-dark);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+}
+
+.section-title .highlight {
+    color: var(--primary);
+}
+
+.underline {
+    width: 60px;
+    height: 4px;
+    background: var(--primary);
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.about-content {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.bio-card {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: 12px;
+    border: var(--glass-border);
+    box-shadow: var(--glass-shadow);
+    margin-bottom: 4rem;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-card p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.bio-card strong {
+    color: var(--secondary);
+}
+
+.bio-card em {
+    font-style: normal;
+    color: var(--primary);
+}
+
+.timeline-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.column-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-main);
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+}
+
+.column-title svg {
+    color: var(--primary);
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 2rem;
+    border-left: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 3rem;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--primary);
+    box-shadow: 0 0 10px var(--primary-glow);
+}
+
+.year {
+    display: inline-block;
+    background: rgba(0, 242, 234, 0.1);
+    color: var(--primary);
+    padding: 0.2rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.timeline-item h4 {
+    color: var(--text-main);
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.institution {
+    color: var(--secondary);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.details {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.timeline-item ul {
+    list-style: disc;
+    margin-left: 1rem;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.timeline-item ul li {
+    margin-bottom: 0.3rem;
+}
+
+@media (max-width: 768px) {
+    .timeline-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
