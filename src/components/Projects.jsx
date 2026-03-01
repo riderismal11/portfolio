@@ -24,11 +24,14 @@ const Projects = () => {
                             <span>Excel</span>
                             <span>SQL</span>
                             <span>Supabase</span>
+                            <span>Power BI</span>
+                            <span>PostgreSQL</span>
+                            <span>DAX</span>
                             <span>Financial Modeling</span>
                         </div>
 
                         <p className="project-description">
-                            A structured financial analysis comparing long-term investment performance between VTI (Total U.S. Market ETF), SMH (Semiconductor Sector ETF), and U.S. Bank Certificates of Deposit (CDs) over 21 years.
+                            A structured financial analysis comparing long-term investment performance between VTI (Total U.S. Market ETF), SMH (Semiconductor Sector ETF), and U.S. Bank Certificates of Deposit (CDs) over 21 years. This project integrates SQL database design (Supabase/PostgreSQL), Excel financial modeling, and an interactive Power BI dashboard with 3 pages: Executive Overview, Instrument Deep Dive, and Risk vs Return Analysis.
                         </p>
 
                         <ul className="project-details">

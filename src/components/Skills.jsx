@@ -7,7 +7,7 @@ const Skills = () => {
         {
             title: "Technical Skills",
             icon: <Code size={24} />,
-            skills: ["Python", "SQL", "Cloud Computing", "Cybersecurity Principles", "Microsoft Suite 365"]
+            skills: ["Python", "SQL", "Cloud Computing", "Cybersecurity Principles", "Microsoft Suite 365", "Power BI", "Supabase", "PostgreSQL", "DAX"]
         },
         {
             title: "Data Analytics",

@@ -26,7 +26,7 @@ const Footer = () => {
                 </p>
 
                 <div className="footer-social">
-                    <a href="https://www.linkedin.com/in/rider-novas-guzman-62a354229" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin size={20} /></a>
+                    <a href="https://www.linkedin.com/in/rider-novas" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin size={20} /></a>
                     <a href="https://github.com/riderismal11" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><Github size={20} /></a>
                     <button onClick={handleCopyEmail} className="copy-email-btn footer-btn" aria-label="Copy Email" title="Copy Email">
                         {copied ? <Check size={20} color="var(--primary)" /> : <Mail size={20} />}

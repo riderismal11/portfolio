@@ -29,7 +29,7 @@ const Hero = () => {
                 </div>
 
                 <div className="social-links">
-                    <a href="https://www.linkedin.com/in/rider-novas-guzman-62a354229" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin size={24} /></a>
+                    <a href="https://www.linkedin.com/in/rider-novas" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin size={24} /></a>
                     <a href="https://github.com/riderismal11" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><Github size={24} /></a>
                     <button onClick={handleCopyEmail} className="copy-email-btn" aria-label="Copy Email" title="Copy Email">
                         {copied ? <Check size={24} color="var(--primary)" /> : <Mail size={24} />}

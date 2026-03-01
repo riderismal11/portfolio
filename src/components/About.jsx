@@ -19,6 +19,7 @@ const About = () => {
                     <p>
                         I have a solid foundation in business processes, data analytics, and technology-driven problem-solving.
                         My approach combines discipline, adaptability, and a constant commitment to continuous learning.
+                        I am actively seeking roles as a <strong>Data Analyst</strong>, <strong>Business Intelligence Analyst</strong>, <strong>Financial Data Analyst</strong>, and <strong>Reporting Analyst</strong>.
                     </p>
                 </div>
 
