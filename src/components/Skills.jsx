@@ -7,12 +7,12 @@ const Skills = () => {
         {
             title: "Technical Skills",
             icon: <Code size={24} />,
-            skills: ["Python", "SQL", "Cloud Computing", "Cybersecurity Principles", "Microsoft Suite 365", "Power BI", "Supabase", "PostgreSQL", "DAX"]
+            skills: ["Python", "Pandas", "SQL", "Cloud Computing", "Cybersecurity Principles", "Microsoft Suite 365", "Power BI", "Supabase", "PostgreSQL", "DAX", "Jupyter", "yfinance", "AI-Assisted Development"]
         },
         {
             title: "Data Analytics",
             icon: <BarChart2 size={24} />,
-            skills: ["Data Visualization", "Business Analytics", "Data-Driven Decision Making", "Financial Markets", "Spreadsheets"]
+            skills: ["Data Visualization", "Business Analytics", "Data-Driven Decision Making", "Financial Analysis", "Risk Analysis", "Financial Markets", "Spreadsheets"]
         },
         {
             title: "Tools & Software",
