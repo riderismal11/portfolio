@@ -30,7 +30,6 @@ const Hero = () => {
                 <div className="hero-actions">
                     <a href="#projects" className="btn btn-primary">View Projects</a>
                     <a href="#contact" className="btn btn-outline">Contact Me</a>
-                    <a href="/Rider_Novas_Resume.pdf" download className="btn btn-outline btn-resume"><Download size={16} /> Resume</a>
                 </div>
 
                 <div className="social-links">
