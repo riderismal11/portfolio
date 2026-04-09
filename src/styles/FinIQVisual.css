@@ -1,0 +1,242 @@
+.finiq-visual {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: radial-gradient(ellipse at 30% 50%, rgba(0, 242, 234, 0.06) 0%, transparent 60%),
+                radial-gradient(ellipse at 70% 50%, rgba(255, 0, 85, 0.04) 0%, transparent 60%);
+}
+
+.finiq-terminal {
+    width: 90%;
+    max-width: 420px;
+    background: rgba(14, 14, 14, 0.95);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 242, 234, 0.08), 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.finiq-terminal .terminal-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    background: rgba(32, 31, 31, 0.9);
+}
+
+.finiq-terminal .terminal-title {
+    font-size: 0.65rem;
+    color: #849492;
+    margin-left: 8px;
+    font-family: 'Inter', monospace;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.finiq-terminal .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.finiq-terminal .dot.red { background: #ff5f57; }
+.finiq-terminal .dot.yellow { background: #ffbd2e; }
+.finiq-terminal .dot.green { background: #28ca42; }
+
+.terminal-body {
+    display: flex;
+    gap: 1px;
+    min-height: 180px;
+}
+
+.chat-side {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-right: 1px solid rgba(58, 74, 72, 0.3);
+}
+
+.chat-msg {
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-size: 0.6rem;
+    line-height: 1.4;
+}
+
+.chat-msg.user {
+    background: rgba(42, 42, 42, 0.8);
+    color: #e5e2e1;
+}
+
+.chat-msg.ai {
+    background: rgba(0, 242, 234, 0.06);
+    color: #b9cac8;
+    border-left: 2px solid #00f2ea;
+}
+
+.msg-label {
+    display: block;
+    font-size: 0.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 2px;
+    color: #849492;
+}
+
+.msg-label.ai-label {
+    color: #00f2ea;
+}
+
+.typing-indicator {
+    display: flex;
+    gap: 4px;
+    padding: 4px 8px;
+}
+
+.typing-indicator span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #00f2ea;
+    opacity: 0.4;
+    animation: typing-pulse 1.4s infinite ease-in-out;
+}
+
+.typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+.typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes typing-pulse {
+    0%, 60%, 100% { opacity: 0.2; transform: scale(0.8); }
+    30% { opacity: 1; transform: scale(1); }
+}
+
+.chart-side {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.finiq-chart {
+    width: 100%;
+    height: auto;
+}
+
+.chart-labels {
+    display: flex;
+    gap: 12px;
+    font-size: 0.5rem;
+    margin-top: 6px;
+    padding-left: 4px;
+}
+
+.label-cyan {
+    color: #00f2ea;
+}
+
+.label-cyan::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 2px;
+    background: #00f2ea;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.label-magenta {
+    color: #ff0055;
+}
+
+.label-magenta::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 2px;
+    background: #ff0055;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+/* Floating glassmorphism cards */
+.finiq-visual .floating-card {
+    position: absolute;
+    background: rgba(32, 31, 31, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 8px;
+    padding: 8px 14px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px rgba(0, 242, 234, 0.05), inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+    animation: float 6s ease-in-out infinite;
+}
+
+.finiq-visual .floating-card span {
+    font-size: 0.55rem;
+    color: #849492;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.finiq-visual .floating-card strong {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.finiq-visual .floating-card.card-1 {
+    top: 10%;
+    right: 5%;
+    animation-delay: 0s;
+}
+
+.finiq-visual .floating-card.card-1 strong {
+    color: #00f2ea;
+}
+
+.finiq-visual .floating-card.card-2 {
+    bottom: 10%;
+    left: 2%;
+    animation-delay: -3s;
+}
+
+.finiq-visual .floating-card.card-2 strong {
+    color: #76ff03;
+}
+
+.finiq-badge {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 0.7rem;
+    font-weight: 900;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.1em;
+    color: #00f2ea;
+    text-transform: uppercase;
+    text-shadow: 0 0 12px rgba(0, 242, 234, 0.4);
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .terminal-body {
+        flex-direction: column;
+    }
+    .chat-side {
+        border-right: none;
+        border-bottom: 1px solid rgba(58, 74, 72, 0.3);
+    }
+}

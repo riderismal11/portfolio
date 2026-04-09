@@ -6,9 +6,9 @@
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    max-width: var(--max-width);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -84,4 +84,19 @@
     position: absolute;
     left: 0;
     color: var(--secondary);
+}
+
+/* AI Skills card highlight */
+.skill-card.ai-highlight {
+    border-color: rgba(0, 242, 234, 0.25);
+    background: linear-gradient(135deg, rgba(0, 242, 234, 0.04) 0%, var(--bg-card) 60%);
+    box-shadow: 0 0 20px rgba(0, 242, 234, 0.05);
+}
+
+.skill-card.ai-highlight::before {
+    opacity: 1;
+}
+
+.skill-card.ai-highlight .icon-box {
+    background: rgba(0, 242, 234, 0.1);
 }

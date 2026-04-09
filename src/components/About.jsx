@@ -13,13 +13,19 @@ const About = () => {
             <div className="about-content">
                 <div className="bio-card">
                     <p>
-                        I am a <strong>Information Systems and Business Analytics</strong> student with a concentration in <em>Cloud Computing</em> and a Minor in <em>Cybersecurity</em>.
-                        I am passionate about organizing, analyzing, and interpreting data to support informed decision-making and operational efficiency.
+                        <strong>Business Analytics and Information Systems</strong> student (GPA 3.6) with
+                        <em> 3 end-to-end projects</em> spanning 20 years of financial data, 2,500+ days of
+                        stock market metrics, and an AI-orchestrated full-stack fintech platform deployed to a live environment.
                     </p>
                     <p>
-                        I have a solid foundation in business processes, data analytics, and technology-driven problem-solving.
-                        My approach combines discipline, adaptability, and a constant commitment to continuous learning.
-                        I am actively seeking roles as a <strong>Data Analyst</strong>, <strong>Business Intelligence Analyst</strong>, <strong>Financial Data Analyst</strong>, and <strong>Reporting Analyst</strong>.
+                        Experienced in architecting relational databases, interactive multi-page dashboards,
+                        and Python-based analytical pipelines that deliver actionable business insights.
+                        Demonstrated ability to build complex AI integrations and design scalable, secure software solutions.
+                        Cloud Computing concentration with Cybersecurity minor.
+                    </p>
+                    <p>
+                        Targeting entry-level roles in <strong>Data Analytics</strong>, <strong>Finance Analytics</strong>,
+                        <strong> Business Intelligence</strong>, or <strong>AI Product Management</strong>.
                     </p>
                 </div>
 
@@ -28,16 +34,18 @@ const About = () => {
                         <h3 className="column-title"><BookOpen size={20} /> Education</h3>
 
                         <div className="timeline-item">
-                            <span className="year">2025 - 2027 (Estimated)</span>
+                            <span className="year">Aug 2025 - Jul 2027</span>
                             <h4>B.S. Information Systems & Business Analytics</h4>
                             <h5 className="institution">Fayetteville State University</h5>
-                            <p className="details">Cloud Computing Concentration | Minor in Cybersecurity</p>
+                            <p className="details">Cloud Computing Concentration | Cybersecurity Minor</p>
+                            <p className="gpa-badge">GPA: 3.6</p>
                         </div>
 
                         <div className="timeline-item">
-                            <span className="year">2023 - 2025</span>
-                            <h4>Associate's Degree in Business Administration</h4>
+                            <span className="year">Jan 2023 - May 2025</span>
+                            <h4>A.S., Business Administration</h4>
                             <h5 className="institution">Western Oklahoma State College</h5>
+                            <p className="gpa-badge">GPA: 3.6</p>
                         </div>
                     </div>
 
@@ -45,12 +53,12 @@ const About = () => {
                         <h3 className="column-title"><Briefcase size={20} /> Experience</h3>
 
                         <div className="timeline-item">
-                            <span className="year">Oct 2025 - Present</span>
-                            <h4>IT Services Student Assistant</h4>
+                            <span className="year">Oct 2025 - Jul 2027</span>
+                            <h4>IT Services Student Assistant Leader</h4>
                             <h5 className="institution">Fayetteville State University</h5>
                             <ul>
-                                <li>Troubleshoot hardware, software, and network issues for students, faculty, and staff.</li>
-                                <li>Support the setup, configuration, and maintenance of computer systems across campus.</li>
+                                <li>Resolve hardware, software, and network incidents for 1,000+ students, faculty, and staff using Microsoft 365 and remote diagnostic tools, applying Excel-based tracking to improve team response efficiency.</li>
+                                <li>Lead configuration and maintenance of campus systems using Azure and Microsoft 365, ensuring near-zero unplanned downtime while mentoring and coordinating team members.</li>
                             </ul>
                         </div>
 
@@ -59,8 +67,8 @@ const About = () => {
                             <h4>Production Assistant</h4>
                             <h5 className="institution">Zona Franca San Isidro</h5>
                             <ul>
-                                <li>Maintained accurate and detailed inventory records.</li>
-                                <li>Collaborated to meet daily production and operational goals.</li>
+                                <li>Maintained inventory records in Excel using standardized tracking templates, reducing stock discrepancy errors.</li>
+                                <li>Collaborated via Microsoft Teams and production dashboards to align daily tasks with operational targets.</li>
                             </ul>
                         </div>
                     </div>

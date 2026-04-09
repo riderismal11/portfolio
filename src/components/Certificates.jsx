@@ -6,9 +6,9 @@ const Certificates = () => {
     const certificates = [
         {
             title: "Google Data Analytics Professional Certificate",
-            issuer: "Coursera / Google",
+            issuer: "Google",
             date: "December 2025",
-            id: "6-3C6-5WHT8",
+            id: "R1FU8ZZ0XNNS",
             link: "#"
         },
         {
@@ -22,7 +22,7 @@ const Certificates = () => {
             title: "Office Pro Certification",
             issuer: "TestOut",
             date: "May 2025",
-            id: "R1FU8ZZ0XNNS",
+            id: "6-3C6-5WHT8",
             link: "#"
         }
     ];

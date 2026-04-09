@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/Hero.css';
-import { ChevronDown, Github, Linkedin, Mail, Check } from 'lucide-react';
+import { ChevronDown, Github, Linkedin, Mail, Check, MapPin, Download } from 'lucide-react';
 
 const Hero = () => {
     const [copied, setCopied] = useState(false);
@@ -19,13 +19,18 @@ const Hero = () => {
                 <span className="greeting">Hello, I'm</span>
                 <h1 className="name">Rider Novas Guzman</h1>
                 <h2 className="title">Information Systems & <span className="highlight">Business Analytics</span></h2>
+                <div className="hero-badges">
+                    <span className="badge gpa-badge">GPA 3.6</span>
+                    <span className="badge location-badge"><MapPin size={14} /> Fayetteville, NC</span>
+                </div>
                 <p className="description">
-                    Specializing in Cloud Computing and Cybersecurity. I transform data into strategic decisions and build secure, efficient technological solutions.
+                    Cloud Computing concentration with Cybersecurity minor. I transform data into strategic decisions and build scalable, AI-powered solutions. Targeting roles in Data Analytics, Finance Analytics, Business Intelligence, and AI Product Management.
                 </p>
 
                 <div className="hero-actions">
                     <a href="#projects" className="btn btn-primary">View Projects</a>
                     <a href="#contact" className="btn btn-outline">Contact Me</a>
+                    <a href="/Rider_Novas_Resume.pdf" download className="btn btn-outline btn-resume"><Download size={16} /> Resume</a>
                 </div>
 
                 <div className="social-links">

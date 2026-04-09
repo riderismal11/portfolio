@@ -1,23 +1,28 @@
 import React from 'react';
 import '../styles/Skills.css';
-import { Database, Code, BarChart2, Shield, Layout, Users } from 'lucide-react';
+import { Database, Code, BarChart2, Cloud, Brain, Users } from 'lucide-react';
 
 const Skills = () => {
     const skillCategories = [
         {
-            title: "Technical Skills",
-            icon: <Code size={24} />,
-            skills: ["Python", "Pandas", "SQL", "Cloud Computing", "Cybersecurity Principles", "Microsoft Suite 365", "Power BI", "Supabase", "PostgreSQL", "DAX", "Jupyter", "yfinance", "AI-Assisted Development"]
+            title: "Analytics",
+            icon: <Database size={24} />,
+            skills: ["SQL (PostgreSQL, Window Functions, CTEs, JOINs)", "Python (Pandas, Matplotlib, Seaborn)", "Excel (Financial Modeling, Pivot Tables)"]
         },
         {
-            title: "Data Analytics",
+            title: "Visualization",
             icon: <BarChart2 size={24} />,
-            skills: ["Data Visualization", "Business Analytics", "Data-Driven Decision Making", "Financial Analysis", "Risk Analysis", "Financial Markets", "Spreadsheets"]
+            skills: ["Power BI (DAX, Multi-Page Dashboards, Dynamic Filtering)", "Tableau (Interactive Dashboards)", "Matplotlib", "Seaborn"]
         },
         {
-            title: "Tools & Software",
-            icon: <Layout size={24} />,
-            skills: ["Tableau", "Data Visualization", "Hardware & Software Troubleshooting", "Network Support"]
+            title: "Cloud & Dev",
+            icon: <Cloud size={24} />,
+            skills: ["Microsoft Azure", "Supabase", "GitHub", "JupyterLab", "Microsoft 365 (Teams, SharePoint)"]
+        },
+        {
+            title: "AI Skills",
+            icon: <Brain size={24} />,
+            skills: ["Prompt Engineering", "AI Workflow Automation", "AI Security & Input Validation", "Ollama & Local AI Models", "Antigravity"]
         },
         {
             title: "Soft Skills",
@@ -35,7 +40,7 @@ const Skills = () => {
 
             <div className="skills-grid">
                 {skillCategories.map((category, index) => (
-                    <div className="skill-card" key={index}>
+                    <div className={`skill-card ${category.title === 'AI Skills' ? 'ai-highlight' : ''}`} key={index}>
                         <div className="card-header">
                             <div className="icon-box">{category.icon}</div>
                             <h3>{category.title}</h3>
