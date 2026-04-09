@@ -40,7 +40,7 @@ const Skills = () => {
 
             <div className="skills-grid">
                 {skillCategories.map((category, index) => (
-                    <div className={`skill-card ${category.title === 'AI Skills' ? 'ai-highlight' : ''}`} key={index}>
+                    <div className="skill-card" key={index}>
                         <div className="card-header">
                             <div className="icon-box">{category.icon}</div>
                             <h3>{category.title}</h3>
