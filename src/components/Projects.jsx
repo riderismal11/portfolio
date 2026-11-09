@@ -44,7 +44,7 @@ const Projects = () => {
                         </ul>
 
                         <div className="project-links">
-                            <a href="https://finiqai.vercel.app" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm"><ExternalLink size={16} /> Live Demo</a>
+                            <a href="https://finiq-ai-investment-dashboard.onrender.com/" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm"><ExternalLink size={16} /> Live Demo</a>
                             <a href="https://github.com/riderismal11/FinIQ-AI-Investment-Dashboard" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm"><Github size={16} /> Source Code</a>
                         </div>
                     </div>
