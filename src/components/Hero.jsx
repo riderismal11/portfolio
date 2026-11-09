@@ -20,11 +20,11 @@ const Hero = () => {
                 <h1 className="name">Rider Novas Guzman</h1>
                 <h2 className="title">Information Systems & <span className="highlight">Business Analytics</span></h2>
                 <div className="hero-badges">
-                    <span className="badge gpa-badge">GPA 3.6</span>
+                    <span className="badge gpa-badge">GPA 3.8</span>
                     <span className="badge location-badge"><MapPin size={14} /> Fayetteville, NC</span>
                 </div>
                 <p className="description">
-                    Cloud Computing concentration with Cybersecurity minor. I transform data into strategic decisions and build scalable, AI-powered solutions. Targeting roles in Data Analytics, Finance Analytics, Business Intelligence, and AI Product Management.
+                    Cloud Computing concentration with Cybersecurity minor, graduating May 2027. I transform data into strategic decisions and build scalable, AI-powered solutions. Targeting roles in Data Analytics, Business Intelligence, Business Analysis, Financial Analytics, and Applied AI/ML.
                 </p>
 
                 <div className="hero-actions">

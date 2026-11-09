@@ -7,7 +7,7 @@ const Skills = () => {
         {
             title: "Analytics",
             icon: <Database size={24} />,
-            skills: ["SQL (PostgreSQL, Window Functions, CTEs, JOINs)", "Python (Pandas, Matplotlib, Seaborn)", "Excel (Financial Modeling, Pivot Tables)"]
+            skills: ["SQL (PostgreSQL, Window Functions, CTEs, JOINs)", "Python (Pandas, Matplotlib, Seaborn)", "Excel (Financial Modeling, Pivot Tables, Macros)", "Microsoft Access"]
         },
         {
             title: "Visualization",
@@ -17,12 +17,12 @@ const Skills = () => {
         {
             title: "Cloud & Dev",
             icon: <Cloud size={24} />,
-            skills: ["Microsoft Azure", "Supabase", "GitHub", "JupyterLab", "Microsoft 365 (Teams, SharePoint)"]
+            skills: ["Microsoft Azure (AZ-900 Certified)", "Supabase", "GitHub", "JupyterLab", "Microsoft 365 (Teams, SharePoint)", "Cloud Lambda Model Testing", "NASA API Retrieval"]
         },
         {
             title: "AI Skills",
             icon: <Brain size={24} />,
-            skills: ["Prompt Engineering", "AI Workflow Automation", "AI Security & Input Validation", "Ollama & Local AI Models", "Antigravity"]
+            skills: ["Machine Learning Fundamentals", "NLP", "RAG (Retrieval Augmented Generation)", "Prompt Engineering", "AI Workflow Automation", "AI Security & Input Validation", "Model Context Protocol (MCP)", "Azure AI Foundry Model Testing", "Ollama & Local AI Models", "Antigravity"]
         },
         {
             title: "Soft Skills",

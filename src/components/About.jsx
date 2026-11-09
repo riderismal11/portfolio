@@ -13,7 +13,7 @@ const About = () => {
             <div className="about-content">
                 <div className="bio-card">
                     <p>
-                        <strong>Business Analytics and Information Systems</strong> student (GPA 3.6) with
+                        <strong>Business Analytics and Information Systems</strong> student (GPA 3.8, graduating May 2027) with
                         <em> 3 end-to-end projects</em> spanning 20 years of financial data, 2,500+ days of
                         stock market metrics, and an AI-orchestrated full-stack fintech platform deployed to a live environment.
                     </p>
@@ -24,8 +24,8 @@ const About = () => {
                         Cloud Computing concentration with Cybersecurity minor.
                     </p>
                     <p>
-                        Targeting entry-level roles in <strong>Data Analytics</strong>, <strong>Finance Analytics</strong>,
-                        <strong> Business Intelligence</strong>, or <strong>AI Product Management</strong>.
+                        Targeting entry-level roles in <strong>Data Analytics</strong>, <strong>Business Intelligence</strong>,
+                        <strong> Business Analysis</strong>, <strong>Financial Analytics</strong>, or <strong>Applied AI/ML</strong>.
                     </p>
                 </div>
 
@@ -34,18 +34,17 @@ const About = () => {
                         <h3 className="column-title"><BookOpen size={20} /> Education</h3>
 
                         <div className="timeline-item">
-                            <span className="year">Aug 2025 - Jul 2027</span>
+                            <span className="year">Aug 2025 - May 2027</span>
                             <h4>B.S. Information Systems & Business Analytics</h4>
                             <h5 className="institution">Fayetteville State University</h5>
                             <p className="details">Cloud Computing Concentration | Cybersecurity Minor</p>
-                            <p className="gpa-badge">GPA: 3.6</p>
+                            <p className="gpa-badge">GPA: 3.8</p>
                         </div>
 
                         <div className="timeline-item">
                             <span className="year">Jan 2023 - May 2025</span>
                             <h4>A.S., Business Administration</h4>
                             <h5 className="institution">Western Oklahoma State College</h5>
-                            <p className="gpa-badge">GPA: 3.6</p>
                         </div>
                     </div>
 
@@ -53,12 +52,24 @@ const About = () => {
                         <h3 className="column-title"><Briefcase size={20} /> Experience</h3>
 
                         <div className="timeline-item">
-                            <span className="year">Oct 2025 - Jul 2027</span>
-                            <h4>IT Services Student Assistant Leader</h4>
+                            <span className="year">Aug 2026 - Present</span>
+                            <h4>Undergraduate Research Assistant</h4>
+                            <h5 className="institution">Intelligent Systems Lab, Fayetteville State University</h5>
+                            <p className="details">Marine multi-agent AI | NASA planetary image retrieval | Wildfire-AI query systems</p>
+                            <ul>
+                                <li>Authored the architecture document for an agentic AI inner loop curating synthetic maritime training data, covering system design, evaluation strategy, and phased implementation plan.</li>
+                                <li>Retrieve planetary imagery through NASA APIs and evaluate multimodal AI and CLIP-based retrieval across MSL and HiRISE datasets, running model-testing libraries in a cloud Lambda environment to test image models.</li>
+                                <li>Help with LLM-based workflows and AI agents that turn natural-language questions into structured queries over NASA environmental and geospatial data, and test AI models in Azure AI Foundry with JPL-provided Azure access.</li>
+                            </ul>
+                        </div>
+
+                        <div className="timeline-item">
+                            <span className="year">Oct 2025 - Present</span>
+                            <h4>IT Services Student Assistant Leader | Interim Supervisor, Tier 1 Support</h4>
                             <h5 className="institution">Fayetteville State University</h5>
                             <ul>
-                                <li>Resolve hardware, software, and network incidents for 1,000+ students, faculty, and staff using Microsoft 365 and remote diagnostic tools, applying Excel-based tracking to improve team response efficiency.</li>
-                                <li>Lead configuration and maintenance of campus systems using Azure and Microsoft 365, ensuring near-zero unplanned downtime while mentoring and coordinating team members.</li>
+                                <li>Resolve 15-20 hardware, software, and network incidents weekly for 1,000+ users, using Excel tracking to identify recurring patterns, prioritize high-impact problems, and improve response efficiency in Microsoft 365 and Azure.</li>
+                                <li>Lead configuration and maintenance of campus systems in Azure and Microsoft 365, training and onboarding 2-3 new assistants weekly, mentoring the team, and ensuring near-zero unplanned downtime.</li>
                             </ul>
                         </div>
 

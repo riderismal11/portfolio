@@ -5,6 +5,13 @@ import { Award, CheckCircle } from 'lucide-react';
 const Certificates = () => {
     const certificates = [
         {
+            title: "Microsoft Certified: Azure Fundamentals",
+            issuer: "Microsoft",
+            date: "April 2026",
+            id: "Exam AZ-900",
+            link: "#"
+        },
+        {
             title: "Google Data Analytics Professional Certificate",
             issuer: "Google",
             date: "December 2025",
